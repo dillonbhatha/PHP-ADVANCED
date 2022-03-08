@@ -7,7 +7,7 @@ echo "<fieldset style='border: solid 2,5px; height: 80px; width:150px;'><legend>
     echo "$ikzit <select>";
 foreach ($klassen as $value){
     echo "<option value=$value> $value</option>";
-    
+   
    }
 echo "</select> </br>";
 echo "<button> Verzend </button>";
