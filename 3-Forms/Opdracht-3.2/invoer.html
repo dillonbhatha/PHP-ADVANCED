@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <form name="invoer.html" action="mijngegevens.php" method="post">
+    <form name="invoer.html" action="forms.php" method="post">
         <label for="fname">Voornaam:</label><br>
         <input type="text" id="fname" name="Voornaam"><br>
         <label for="lname">Achternaam:</label><br>
@@ -25,9 +25,21 @@
         <label for="lname">Favoriete muziekband:</label><br>
         <input type="text" id="lname" name="Favorietemuziekband"><br><br>
 
-        <input type="submit" name="submit" value="submit"><br>
+        <input type="radio" name="gender" value="Vrouw"> Vrouw</input>
+        <input type="radio" name="gender" value="Man"> Man</input><br>
+        <p>
+            <p>
+                <select name="lievelingskleur"> 
+                    <option value="blue">Blauw</option>
+                    <option value="green">Groen </option>
+                    <option value="red">Rood</option>
+                    <option value="yellow">Geel</option>
+                    <option value="brown">Bruin</option>
+                </select>
+            <p>
+            <p>
 
-        
-    </form>
+        <input type="submit" name="submit" value="submit"><br>
+      </form>
 </body>
 </html>
