@@ -18,5 +18,5 @@ echo "<p>";
 echo "Deze track is van het muzieksoort " . $_GET ["Muzieksoort"];
 ?>
 
-</body>
+<!-- http://localhost/PHP-Advanced/PHP-ADVANCED/3-Forms/Opdracht-3.3/mijnmuziek.php?artiest=My+Chemical+Romance&titel=The+Black+Parade&Jaarvanuitkomst=2016&Muzieksoort=Rock&submit=verstuur -->
 </html>
